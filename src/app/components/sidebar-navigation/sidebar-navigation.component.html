@@ -1,0 +1,11 @@
+<button class="burger-menu-button" (click)="toggleSidebar()">☰</button>
+<div class="sidebar-overlay" (click)="sidebarOpen = false" *ngIf="sidebarOpen"></div>
+<nav class="sidebar-container" [class.active]="sidebarOpen">
+    <img id="duck-icon" src="assets/ducking-duck.png" alt="Ducking Duck Logo">
+    <button class="close-btn" (click)="toggleSidebar()">&times;</button>
+    <a routerLink="/" class="sidebar-link">Duck Home</a>
+    <a routerLink="/gallery" class="sidebar-link">Duck Gallery</a>
+    <a routerLink="/duck-builder" class="sidebar-link">Duck Builder</a>
+    <a routerLink="/game" class="sidebar-link">Duck Game</a>
+    <a routerLink="/info" class="sidebar-link">Duck Info</a>
+  </nav>

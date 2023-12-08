@@ -1,0 +1,21 @@
+<div class="home-container">
+    <img id="duck-icon" src="assets/ducking-duck.png" alt="Ducking Duck Logo">
+    <div class="home-container">
+        <h1>The Importance of Ducks</h1>
+        <p>Ducks play an invaluable role in our world. They not only bring joy and serenity with their presence but also inspire us to be kind and care for nature.</p>
+      </div>
+    
+      <div class="slider-container">
+        <ngx-slick-carousel
+          class="carousel-items"
+          #slickModal="slick-carousel"
+          [config]="slideConfig">
+    
+          <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+            <img class="img" src="{{slide.img}}" alt="">
+            <div class="caption">{{ slide.caption }}</div>
+          </div>
+    
+        </ngx-slick-carousel>
+      </div>
+  </div>

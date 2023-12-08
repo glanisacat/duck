@@ -1,0 +1,42 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #duck-icon {
+    width: 150px;
+    height: auto;
+  }
+  .home-container h1 {
+    color: #4a90e2;
+    font-size: 2.5em;
+  }
+  
+  .home-container p {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .navigation button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .navigation button:hover {
+    background-color: #357ab8;
+  }
+
+  .slider-container {
+    margin-left: 500px;
+  }
+
+  .img {
+    width: 450px;
+    height: auto;
+  }
